@@ -3,31 +3,33 @@ import Slider from "react-slick";
 import ava01 from "../../assets/images/ava-1.jpg";
 import ava02 from "../../assets/images/ava-2.jpg";
 import ava03 from "../../assets/images/ava-3.jpg";
+import ava04 from "../../assets/images/ava-4.jpg";
+
 
 const testimonialsData = [
   {
     img: ava01,
     name: "John Doe",
     role: "Customer",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sit, explicabo provident hic distinctio molestias voluptates nobis alias placeat suscipit earum debitis recusandae voluptate illum expedita corrupti aliquid doloribus delectus?"
+    text: "Our trip organized by this team was absolutely flawless from start to finish! Every detail was meticulously handled, allowing us to truly relax and immerse ourselves in the destination. It was an unforgettable adventure, and we can't wait to book our next one!"
   },
   {
     img: ava02,
     name: "Jane Smith",
     role: "Customer",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, nostrum? Veniam fugit adipisci labore soluta, maiores culpa deserunt consequatur? Totam."
+    text: "I've used several travel agencies before, but none compare to the personalized service and expertise we received here. They listened to all our preferences and crafted a unique itinerary that exceeded every expectation. Highly recommend for anyone seeking a truly tailored experience."
   },
   {
     img: ava03,
     name: "Alex Johnson",
     role: "Customer",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quia esse quisquam minima animi, id aliquid voluptatibus natus accusantium non."
+    text: "From the initial planning stages to the moment we returned home, the support and guidance were exceptional. The destinations chosen were breathtaking, and the local experiences were authentic and enriching. A truly professional and passionate team!"
   },
   {
-    img: ava01,
-    name: "Emily Wilson",
+    img: ava04,
+    name: "Hritik Roshan",
     role: "Customer",
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus explicabo, vero ad error quas architecto distinctio fugiat."
+    text: "They listened to all our preferences and crafted a unique itinerary that exceeded every expectation. Highly recommend for anyone seeking a truly tailored experience."
   },
 ];
 
@@ -64,8 +66,9 @@ const Testimonials = () => {
           <div className="d-flex align-items-center gap-4 mt-3">
             <img
               src={item.img}
-              className="w-25 h-25 rounded-2"
+              className="rounded-2"
               alt={`testimonial-${item.name}`}
+              style={{ width: "60px", height: "60px", objectFit: "cover" }}
             />
             <div>
               <h6 className="mb-0 mt-3">{item.name}</h6>

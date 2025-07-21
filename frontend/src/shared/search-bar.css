@@ -11,8 +11,11 @@
     color: #ee6e6e ; 
 }
 
-.form_group input { 
-    border: none; 
+.form_group input {
+    
+    border-color: var(--secondary-color);
+    border-radius: 10px;
+    margin-top: 6px;
     font-size: 0.9rem; 
     color: var(--heading-color); 
     font-weight: 500;

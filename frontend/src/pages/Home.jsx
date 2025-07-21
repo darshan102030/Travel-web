@@ -27,16 +27,16 @@ const Home = () => {
               <div className="hero_content">
                 <div className="hero_subtitle d-flex align-items-center">
                   <Subtitles subtitles="Know Before You Go" />
-                  <img src={worldImg} alt="world" />
+                  <img class="world"src={worldImg} alt="world" />
                 </div>
                 <h1>
                   Traveling opens the door to creating{' '}
                   <span className="highlight">memories</span>
                 </h1>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero voluptate soluta eligendi accusamus
-                  nemo cum quasi! Veritatis minus placeat exercitationem molestias atque doloribus deleniti cupiditate,
-                  laboriosam pariatur ipsa possimus facilis.
+                  Ready to trade the everyday for the extraordinary? Discover breathtaking landscapes,
+                  vibrant cultures, and unforgettable adventures with us. 
+                  Your journey begins now.. where will your wanderlust take you?
                 </p>
               </div>
             </Col>
@@ -68,11 +68,14 @@ const Home = () => {
       <section>
         <Container>
           <Row>
-            <Col lg="3">
+            <Col lg="12">
               <h5 className="service_subtitle">What we serve</h5>
               <h2 className="service_title">We offer our best services</h2>
             </Col>
-            <ServiceList />
+          </Row>
+          <Row>
+
+              <ServiceList />
           </Row>
         </Container>
       </section>
@@ -101,9 +104,9 @@ const Home = () => {
                   With our experience <br /> we will serve you
                 </h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  <br />
-                  Quas aliquam, hic tempora inventore suscipit unde.
+                  With over a decade of dedicated service and thousands of satisfied adventurers, 
+                  we've honed our expertise in crafting seamless and enriching travel experiences. 
+                  Trust us to handle every detail, ensuring your journey is nothing short of exceptional and memorable from start to finish.
                 </p>
               </div>
 
