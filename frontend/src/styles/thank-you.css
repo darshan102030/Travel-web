@@ -1,0 +1,27 @@
+.thank_you span i{ 
+    font-size: 4rem; 
+    color: green; 
+} 
+    
+.thank_you h1{ 
+    font-size: 3.6rem; 
+    font-family: var(--subtitle-font); 
+    
+}
+
+.thank_you button{
+        
+        border: 1px solid black;
+        background: var(--secondary-color);  
+        padding: 0.5rem 1rem; 
+        border-radius: 2em; 
+        transition: 0.2s;
+}
+    
+.thank_you button:hover{
+    color: #000;
+        background-color: var(--secondary-color);
+        box-shadow: 0 0 0 3px white, 
+        0 0 0 6px var(--secondary-color);
+    }
+
